@@ -1,3 +1,17 @@
+
 body{
-    background-color: #fffff;
+   background-color: #ffffff;
+    font-family: "Roboto", sans-serif; 
 }
+  .title{
+    background-color: #2E2F42;
+  } 
+  .text{
+    font-family: "Roboto" sans-serif;
+    color: #FCFCFC;
+    text-align: center;
+    font-weight: bold;
+    font-size: 56px;
+    letter-spacing: 2%;
+    line-height: 60px;
+  }
