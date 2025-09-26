@@ -2,6 +2,20 @@
 body{
    background-color: #ffffff;
     font-family: "Roboto", sans-serif; 
+    color: #2E2F42;
+}
+.site-nav{
+  list-style-type: none;
+}
+.link{
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  color: #2E2F42;
+  
+
 }
   .hero{
     background-color: #2E2F42;
@@ -10,18 +24,15 @@ body{
     
     color: #FCFCFC;
     text-align: center;
-    font-weight: bold;
     font-size: 56px;
-    letter-spacing: 0,02em;
-    line-height: 60px;
+    letter-spacing: 0.02em;
+    line-height: 1.07;
   }
   button{
     background-color: #4D5AE5;
-  
-    font-weight: 400;
     font-size: 12px;
-    line-height: 16px;
-    letter-spacing: 0,04em;
+    line-height: 1.33;
+    letter-spacing: 0.04em;
   
   }
   .features-list{
@@ -37,31 +48,30 @@ body{
 .features-text{
 
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
   font-size: 16px;
 }
-.portfolio{
+.team{
   background-color: #F4F4FD;
 }
-.portfolio-list{
+.team-list{
   list-style: none;
 }
-.portfolio-title{
+.team-title{
   
   font-size: 36px;
-  font-weight: bold;
   letter-spacing: 0.02em;
   color:#2E2F42;
   text-align: center;
   
 }
-.portfolio-item{
+.team-item{
   background-color: #FCFCFC;
   
 }
-.portfolio-team{
+.gruppe-team{
   
   font-weight: 500;
   font-size: 20px;
@@ -70,16 +80,41 @@ body{
   text-align: center;
 
 }
-.portfolio-text{
+.team-text{
   color: #434455;
   
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
-  letter-spacing: 0.02em;
+  letter-spacing: 1.5;
   text-align: center;
 }
- 
+.portfolio-title{
+color: #2E2F42;
+font-size: 36px;
+letter-spacing: 0.02em;
+text-align: center;
+}
+ .portfolio-list{
+  list-style: none;
+ }
+ .portfolio-item{
+  background-color:#FFFFFF;
+ }
+ .gruppe-portfolio{
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  color: #2E2F42;
+  text-align: center;
+ }
+ .portfolio-text{
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02;
+  text-align: center;
+  color: #434455;
+ }
   
 
 
