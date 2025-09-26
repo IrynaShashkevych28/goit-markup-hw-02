@@ -3,10 +3,13 @@ body{
    background-color: #ffffff;
     font-family: "Roboto", sans-serif; 
     color: #2E2F42;
+    
 }
+
 .site-nav{
   list-style-type: none;
 }
+
 .link{
   text-decoration: none;
   font-family: "Roboto", sans-serif;
@@ -14,8 +17,11 @@ body{
   font-size: 12px;
   line-height: 2;
   color: #2E2F42;
-  
 
+}
+link :hover,
+link :focus{
+  color: #404BBF;
 }
   .hero{
     background-color: #2E2F42;
@@ -28,11 +34,12 @@ body{
     letter-spacing: 0.02em;
     line-height: 1.07;
   }
-  button{
+  button {
     background-color: #4D5AE5;
     font-size: 12px;
     line-height: 1.33;
     letter-spacing: 0.04em;
+    cursor: pointer;
   
   }
   .features-list{
